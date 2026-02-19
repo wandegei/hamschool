@@ -26,7 +26,7 @@ const TestimonialsCarousel = () => {
       role: 'Former Student',
       image: 'https://images.unsplash.com/photo-1581726690015-c9861fa5057f?w=200',
       rating: 5,
-      text: 'I attended Ham Prep from nursery to P6. The foundation I received here helped me excel in secondary school. The teachers genuinely care about each student\'s success.',
+      text: 'I attended Ham Prep from nursery to P7. The foundation I received here helped me excel in secondary school. The teachers genuinely care about each student\'s success.',
     },
     {
       name: 'John Ssemakula',

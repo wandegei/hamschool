@@ -15,7 +15,7 @@ export const SCHOOL_INFO = {
   },
   programs: {
     nursery: 'Nursery',
-    primary: 'Primary (P1-P6)',
+    primary: 'Primary (P1-P7)',
     vocational: ['Bakery', 'Decoration', 'Tailoring / Fashion & Design', 'Computer Studies', 'Art & Craft']
   }
 };

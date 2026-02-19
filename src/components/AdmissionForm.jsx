@@ -262,6 +262,7 @@ const AdmissionForm = () => {
             <option value="P4">Primary 4</option>
             <option value="P5">Primary 5</option>
             <option value="P6">Primary 6</option>
+            <option value="P7">Primary 7</option>
           </select>
         </div>
 

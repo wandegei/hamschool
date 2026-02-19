@@ -13,10 +13,10 @@ const Academics = () => {
 
   const subjects = [
     {
-      category: 'Sciences',
+      category: 'Subjects',
       icon: Microscope,
       color: 'from-primary to-primary-dark',
-      items: ['Biology', 'Chemistry', 'Physics', 'Mathematics']
+      items: ['English', 'Science', 'Social Studies', 'Mathematics']
     },
     {
       category: 'Languages',
@@ -28,13 +28,13 @@ const Academics = () => {
       category: 'Humanities',
       icon: Globe,
       color: 'from-accent to-accent-dark',
-      items: ['Social Studies', 'Religious Education', 'History', 'Geography']
+      items: ['Social Studies', 'Religious Education']
     },
     {
-      category: 'Arts',
+      category: 'other Subjects/Activities',
       icon: Palette,
       color: 'from-primary to-secondary',
-      items: ['Music', 'Art & Craft', 'Drama', 'Physical Education']
+      items: ['Computer basics', 'Cake baking', 'Drama', 'Physical Education']
     }
   ];
 
@@ -206,7 +206,7 @@ const Academics = () => {
 
                 <Card className="p-8">
                   <h3 className="font-heading text-2xl font-bold text-secondary mb-4">
-                    Primary Section (P1-P6)
+                    Primary Section (P1-P7)
                   </h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-2">

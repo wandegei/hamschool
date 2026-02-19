@@ -30,9 +30,9 @@ const NewsCarousel = () => {
       id: 2,
       title: "Outstanding Performance in National Exams",
       excerpt:
-        "Our P6 students achieved a remarkable 98% pass rate in the national examinations, demonstrating academic excellence.",
+        "Our P7 students achieved a remarkable 98% pass rate in the national examinations, demonstrating academic excellence.",
       image:
-        "https://horizons-cdn.hostinger.com/1f45429d-a9a2-45db-8ba9-c11d21539189/3d927806ed3d5cfab74c836476e47832.jpg",
+        "https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.31%20PM.jpeg",
       date: "2026-01-10",
       category: "Achievements",
     },

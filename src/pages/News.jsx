@@ -23,9 +23,9 @@ const News = () => {
       },
       {
         id: 2,
-        title: 'Outstanding P6 Examination Results',
+        title: 'Outstanding P7 Examination Results',
         content: 'Ham Preparatory School celebrates exceptional performance in the national Primary Leaving Examinations with a 98% pass rate. Our students have once again demonstrated academic excellence and dedication.',
-        image: 'https://horizons-cdn.hostinger.com/1f45429d-a9a2-45db-8ba9-c11d21539189/3d927806ed3d5cfab74c836476e47832.jpg',
+        image: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.31%20PM.jpeg',
         date: '2026-01-10',
         category: 'Achievements'
       },

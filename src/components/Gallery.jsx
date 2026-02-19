@@ -11,7 +11,37 @@ const Gallery = () => {
 
   const images = [
     {
-      url: 'https://horizons-cdn.hostinger.com/1f45429d-a9a2-45db-8ba9-c11d21539189/3d927806ed3d5cfab74c836476e47832.jpg',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.55%20PM.jpeg',
+      category: 'School Life',
+      title: 'Students in Uniform'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.55%20PM%20(1).jpeg',
+      category: 'School Life',
+      title: 'Students in Uniform'
+    }, 
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.52%20PM%20(1).jpeg',
+      category: 'School Life',
+      title: 'Students in Uniform'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.52%20PM.jpeg',
+      category: 'School Life',
+      title: 'Students in Uniform'
+    }, 
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.51%20PM%20(1).jpeg',
+      category: 'School Life',
+      title: 'Students in Uniform'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.51%20PM.jpeg',
+      category: 'School Life',
+      title: 'Students in Uniform'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.50%20PM.jpeg',
       category: 'School Life',
       title: 'Students in Uniform'
     },
@@ -21,12 +51,53 @@ const Gallery = () => {
       title: 'School Buildings'
     },
     {
-      url: 'https://horizons-cdn.hostinger.com/1f45429d-a9a2-45db-8ba9-c11d21539189/1fb1932de7a2253c6b5615d95769dfd9.jpg',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.47%20PM%20(1).jpeg',
       category: 'School Life',
       title: 'Happy Students'
     },
     {
-      url: 'https://horizons-cdn.hostinger.com/1f45429d-a9a2-45db-8ba9-c11d21539189/7c911e8560bebe9d7ad47dabd256ff86.jpg',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.47%20PM.jpeg',
+      category: 'School Life',
+      title: 'Happy Students'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.48%20PM%20(1).jpeg',
+      category: 'School Life',
+      title: 'Happy Students'
+    },
+
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.48%20PM%20(2).jpeg',
+      category: 'School Life',
+      title: 'Happy Students'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.48%20PM.jpeg',
+      category: 'School Life',
+      title: 'Happy Students'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.46%20PM.jpeg',
+      category: 'School Life',
+      title: 'Happy Students'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.46%20PM.jpeg',
+      category: 'School Life',
+      title: 'Happy Students'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.44%20PM%20(1).jpeg',
+      category: 'School Life',
+      title: 'Happy Students'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.44%20PM.jpeg',
+      category: 'School Life',
+      title: 'Happy Students'
+    },
+    {
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.48%20PM%20(2).jpeg',
       category: 'Events',
       title: 'School Activities'
     },
@@ -41,32 +112,32 @@ const Gallery = () => {
       title: 'Learning Together'
     },
     {
-      url: 'https://images.unsplash.com/photo-1687600154329-150952c73169',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.51%20PM.jpeg',
       category: 'Facilities',
       title: 'Modern Classrooms'
     },
     {
-      url: 'https://images.unsplash.com/photo-1561089489-f13d5e730d72',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.51%20PM%20(1).jpeg',
       category: 'Events',
       title: 'School Events'
     },
     {
-      url: 'https://images.unsplash.com/photo-1688853739679-3bc19f690d98',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.44%20PM%20(1).jpeg',
       category: 'Facilities',
       title: 'Campus View'
     },
     {
-      url: 'https://images.unsplash.com/photo-1581056771370-4814aa6dd705',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.42%20PM.jpeg',
       category: 'School Life',
       title: 'Students Learning'
     },
     {
-      url: 'https://images.unsplash.com/photo-1603201667141-5a2d4c673378',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.31%20PM.jpeg',
       category: 'Achievements',
       title: 'Academic Excellence'
     },
     {
-      url: 'https://images.unsplash.com/photo-1698678640513-ff0b0032f85a',
+      url: 'https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.35%20PM%20(1).jpeg',
       category: 'Events',
       title: 'Special Occasions'
     }

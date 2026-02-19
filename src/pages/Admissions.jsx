@@ -59,7 +59,7 @@ const Admissions = () => {
       includes: ['Tuition', 'Books', 'Meals', 'Sports']
     },
     {
-      category: 'Primary (P4-P6)',
+      category: 'Primary (P4-P7)',
       termFee: 'UGX 450,000',
       annual: 'UGX 1,350,000',
       includes: ['Tuition', 'Books', 'Meals', 'Sports', 'Exam Prep']
