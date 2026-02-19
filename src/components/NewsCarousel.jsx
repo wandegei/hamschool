@@ -52,7 +52,7 @@ const NewsCarousel = () => {
       excerpt:
         "Introducing our new scholarship program for outstanding students from underprivileged backgrounds. Applications now open.",
       image:
-        "https://horizons-cdn.hostinger.com/1f45429d-a9a2-45db-8ba9-c11d21539189/7c911e8560bebe9d7ad47dabd256ff86.jpg",
+        "https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.36%20PM.jpeg",
       date: "2026-01-20",
       category: "Admissions",
     },
