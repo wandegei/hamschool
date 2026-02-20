@@ -57,7 +57,7 @@ const Hero = () => {
         }}
       >
         <img
-          src="https://horizons-cdn.hostinger.com/1f45429d-a9a2-45db-8ba9-c11d21539189/1fb1932de7a2253c6b5615d95769dfd9.jpg"
+          src="https://svxrsjrkghluzxwtmjvt.supabase.co/storage/v1/object/public/HamImages/WhatsApp%20Image%202026-02-19%20at%205.12.36%20PM.jpeg"
           alt="Students in classroom"
           className="w-full h-full object-cover scale-105"
         />

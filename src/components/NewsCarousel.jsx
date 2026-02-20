@@ -85,8 +85,9 @@ const NewsCarousel = () => {
           </p>
         </motion.div>
 
-        <div
+        <section
           className="relative max-w-6xl mx-auto"
+          aria-label="News carousel"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
@@ -127,11 +128,12 @@ const NewsCarousel = () => {
                       </p>
 
                       <Link to="/news">
-                        <Button className="group bg-primary hover:bg-primary-dark">
-                          Read More
-                          <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
-                        </Button>
-                      </Link>
+                      <Button className="group bg-primary hover:bg-primary-dark text-white">
+                        Read More
+                        <ArrowRight className="ml-2 w-4 h-4 text-white transition-transform group-hover:translate-x-1" />
+                      </Button>
+                    </Link>
+
                     </div>
                   </div>
                 </div>
@@ -166,9 +168,9 @@ const NewsCarousel = () => {
 
           {/* Dots */}
           <div className="flex justify-center gap-2 mt-6">
-            {newsItems.map((_, index) => (
+            {newsItems.map((news, index) => (
               <button
-                key={index}
+                key={news.id}
                 onClick={() => setCurrentIndex(index)}
                 className={`h-2 rounded-full transition-all ${
                   index === currentIndex
@@ -178,7 +180,7 @@ const NewsCarousel = () => {
               />
             ))}
           </div>
-        </div>
+        </section>
       </div>
     </section>
   );
