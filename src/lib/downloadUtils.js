@@ -65,7 +65,7 @@ export const handleFileDownload = async (filename, title, description) => {
         "• Integrated Religious Education (Islamic & Secular)",
         "• Mathematics, Science, English, and Social Studies",
         "• Computer Studies and ICT integration",
-        "• Physical Education and Sports"
+        "• Games  and Sports"
       ];
       items.forEach(item => {
         doc.text(item, 25, yPos);

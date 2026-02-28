@@ -37,7 +37,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: Facebook, url: SCHOOL_INFO.socialMedia.facebook, name: 'Facebook', color: 'hover:bg-blue-600' },
     { icon: Instagram, url: SCHOOL_INFO.socialMedia.instagram, name: 'Instagram', color: 'hover:bg-pink-600' },
-    { icon: Twitter, url: SCHOOL_INFO.socialMedia.twitter, name: 'Twitter', color: 'hover:bg-blue-400' },
+    // { icon: Twitter, url: SCHOOL_INFO.socialMedia.twitter, name: 'Twitter', color: 'hover:bg-blue-400' },
     { icon: Linkedin, url: SCHOOL_INFO.socialMedia.linkedin, name: 'LinkedIn', color: 'hover:bg-blue-700' }
   ];
 

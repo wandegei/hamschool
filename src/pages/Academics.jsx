@@ -25,18 +25,19 @@ const Academics = () => {
       items: ['English', 'Luganda', 'Swahili']
     },
     {
-      category: 'Humanities',
+      category: 'Arabic',
       icon: Globe,
       color: 'from-accent to-accent-dark',
-      items: ['Social Studies', 'Religious Education']
+      items: ['Fiqhi', 'Lugha', 'Tarbia', 'Qur’an']
     },
     {
       category: 'other Subjects/Activities',
       icon: Palette,
       color: 'from-primary to-secondary',
-      items: ['Computer basics', 'Cake baking', 'Drama', 'Physical Education']
+      items: ['Computer basics', 'Cake baking', 'Patriotism', 'Games and Sports']
     }
   ];
+
 
   const methodology = [
     {

@@ -34,13 +34,13 @@ const About = () => {
 
   const leadership = [
     {
-      name: 'Mr. Joseph Ssentongo',
+      name: '1.	Mr. Kizito Abubaker Mousa ',
       position: 'School Director',
       image: 'https://images.unsplash.com/photo-1701229404076-5629809b331d?w=400',
       bio: 'With over 20 years in education leadership, Mr. Ssentongo has transformed Ham Prep into a beacon of excellence.'
     },
     {
-      name: 'Mrs. Sarah Nakato',
+      name: '2.	Mr. Tumwijukye Transphol George',
       position: 'Head Teacher',
       image: 'https://images.unsplash.com/photo-1581726690015-c9861fa5057f?w=400',
       bio: 'An experienced educator with a passion for nurturing young minds and academic excellence.'
@@ -48,12 +48,12 @@ const About = () => {
   ];
 
   const timeline = [
-    { year: '2000', event: 'School Founded', description: 'Ham Preparatory School opened its doors to the first students' },
-    { year: '2005', event: 'Expanded Facilities', description: 'New classrooms and library constructed' },
-    { year: '2010', event: 'Computer Lab Opened', description: 'Introduction of ICT in the curriculum' },
-    { year: '2015', event: 'Vocational Training', description: 'Launched practical skills programs' },
-    { year: '2020', event: 'Modern Infrastructure', description: 'Completion of new school buildings' },
-    { year: '2026', event: 'Continued Excellence', description: '98% success rate in national examinations' }
+    { year: '2018', event: 'opened', description: 'Ham Preparatory School opened its doors to the first students' },
+    { year: '2019', event: 'Expanded Facilities', description: 'New classrooms and library constructed' },
+    { year: '2025', event: 'started vocational training and fully registered with MOES', description: 'Introduction of ICT in the curriculum' },
+    { year: '2026', event: 'modern infrastructure', description: 'Launched practical skills programs' },
+    // { year: '2020', event: 'Modern Infrastructure', description: 'Completion of new school buildings' },
+    // { year: '2026', event: 'Continued Excellence', description: '98% success rate in national examinations' }
   ];
 
   return (
@@ -77,7 +77,7 @@ const About = () => {
                 About Ham Preparatory School
               </h1>
               <p className="text-xl text-white/90">
-                Nurturing excellence since 2000 - The Fountain of Success
+                Nurturing excellence since 2018 - The Fountain of Success
               </p>
             </motion.div>
           </div>
@@ -98,8 +98,7 @@ const About = () => {
                   </div>
                   <h2 className="font-heading text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
                   <p className="text-gray-700 leading-relaxed">
-                    To provide quality holistic education that nurtures academic excellence, moral values, 
-                    and practical skills, preparing students to become responsible and successful members of society.
+                    To provide quality education that develops academic excellence, God fearing and character and practical skills.
                   </p>
                 </motion.div>
               </Card>
@@ -115,8 +114,7 @@ const About = () => {
                   </div>
                   <h2 className="font-heading text-3xl font-bold text-gray-900 mb-4">Our Vision</h2>
                   <p className="text-gray-700 leading-relaxed">
-                    To be the leading educational institution in Uganda, recognized for academic excellence, 
-                    character development, and producing well-rounded students equipped for global success.
+                    To produce disciplined, competent, God fearing and productive citizens.
                   </p>
                 </motion.div>
               </Card>
